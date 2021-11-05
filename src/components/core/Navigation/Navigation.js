@@ -10,6 +10,18 @@ const navigation = [
         title: 'Classes',
         route: routes.classes
     },
+    {
+        title: 'Teachers',
+        route: routes.teachers
+    },
+    {
+        title: 'Students',
+        route: routes.students
+    },
+    {
+        title: 'Departments',
+        route: routes.departments
+    },
 ];
 
 export const Navigation = () => (
@@ -17,12 +29,12 @@ export const Navigation = () => (
         <ul>
             {console.log(navigation)}
             {navigation.map(item => {
-                const { title, icon: Icon, route } = item;
+                const { title, route } = item;
                 return (
                     <li key={item.title}>
                         {/* What is key? */}
                         <Link to={item.route}>
-                            <Icon />
+                            {/*Todo: add icon here*/}
                             {title}
                         </Link>
                     </li>

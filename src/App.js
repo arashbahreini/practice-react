@@ -1,67 +1,28 @@
 import './App.css';
 import {Routes, Route, Link} from "react-router-dom";
 import {Navigation} from './components/core/Navigation/Navigation';
+import {routes} from "./config/routes";
+import {Classes} from "./pages/Classes";
+import {Home} from "./pages/Home";
+import {Teachers} from "./pages/Teachers";
+import {Students} from "./pages/Students";
+import {Departments} from "./pages/Departments";
 
 function App() {
-    const something = 'aaaa';
     return (
         <div className="App">
-            <Navigation />
-            {/*<div className="link-container">*/}
-            {/*    <Link className="link-item" to="/">Home</Link>*/}
-            {/*    <Link className="link-item" to="/classes">Classes</Link>*/}
-            {/*    <Link className="link-item" to="/teachers">Teachers</Link>*/}
-            {/*    <Link className="link-item" to="/students">Students</Link>*/}
-            {/*    <Link className="link-item" to="/departments">Departments</Link>*/}
-            {/*</div>*/}
-            {/*<Routes>*/}
-            {/*    <Route path="/" element={<Home/>}/>*/}
-            {/*    <Route path="/classes" element={<Classes/>}/>*/}
-            {/*    <Route path="/teachers" element={<Teachers/>}/>*/}
-            {/*    <Route path="/students" element={<Students/>}/>*/}
-            {/*    <Route path="/departments" element={<Departments/>}/>*/}
-            {/*</Routes>*/}
+            <Navigation/>
+            <Routes>
+                {routes.map(route => {
+                    <Route path={route.path} element={route.component}/>
+                })}
+                {/*<Route path={routes.home} element={<Home/>}/>*/}
+                {/*<Route path={routes.classes} element={<Classes/>}/>*/}
+                {/*<Route path={routes.teachers} element={<Teachers/>}/>*/}
+                {/*<Route path={routes.students} element={<Students/>}/>*/}
+                {/*<Route path={routes.departments} element={<Departments/>}/>*/}
+            </Routes>
         </div>
-    );
-}
-
-function Home() {
-    return (
-        <>
-            <h1>Home works!</h1>
-        </>
-    );
-}
-
-function Classes() {
-    return (
-        <>
-            <h1>Classes works!</h1>
-        </>
-    );
-}
-
-function Teachers() {
-    return (
-        <>
-            <h1>Teachers works!</h1>
-        </>
-    );
-}
-
-function Students() {
-    return (
-        <>
-            <h1>Students works!</h1>
-        </>
-    );
-}
-
-function Departments() {
-    return (
-        <>
-            <h1>Departments works!</h1>
-        </>
     );
 }
 

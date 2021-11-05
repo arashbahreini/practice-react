@@ -1,1 +1,0 @@
-export const Classes = () => <div>Classes works!</div>
