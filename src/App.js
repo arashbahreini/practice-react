@@ -1,24 +1,26 @@
 import './App.css';
-import {Routes, Route, Link} from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
+import { Navigation } from './components/core/Navigation/Navigation';
 
 function App() {
     const something = 'aaaa';
     return (
         <div className="App">
-            <div className="link-container">
+            {Navigation}
+            {/* <div className="link-container">
                 <Link className="link-item" to="/">Home</Link>
                 <Link className="link-item" to="/classes">Classes</Link>
                 <Link className="link-item" to="/teachers">Teachers</Link>
                 <Link className="link-item" to="/students">Students</Link>
                 <Link className="link-item" to="/departments">Departments</Link>
-            </div>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/classes" element={<Classes/>}/>
-                <Route path="/teachers" element={<Teachers/>}/>
-                <Route path="/students" element={<Students/>}/>
-                <Route path="/departments" element={<Departments/>}/>
-            </Routes>
+            </div> */}
+            {/* <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/classes" element={<Classes />} />
+                <Route path="/teachers" element={<Teachers />} />
+                <Route path="/students" element={<Students />} />
+                <Route path="/departments" element={<Departments />} />
+            </Routes> */}
         </div>
     );
 }
