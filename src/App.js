@@ -15,7 +15,7 @@ function App() {
             <Routes>
                 {routes.map((route) => {
                     console.log('route', route);
-                    <Route path={route.path} element={route.component} key={route.name}/>
+                    return <Route path={route.path} element={route.component} key={route.name}/>
                 })}
                 {/*<Route path={routes.home} element={<Home/>}/>*/}
                 {/*<Route path={routes.classes} element={<Classes/>}/>*/}
