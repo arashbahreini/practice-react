@@ -2,7 +2,7 @@ import {Home} from "../pages/Home";
 import {Classes} from "../pages/Classes";
 import {Teachers} from "../pages/Teachers";
 import {Students} from "../pages/Students";
-import {Departments} from "../pages/Departments";
+import {Departments} from "src/pages/Departments";
 
 export const routes = [
     {
