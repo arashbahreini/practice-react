@@ -1,33 +1,33 @@
-import {Home} from "../pages/Home";
-import {Classes} from "../pages/Classes";
-import {Teachers} from "../pages/Teachers";
-import {Students} from "../pages/Students";
-import {Departments} from "../pages/Departments";
+import { Home } from "pages/Home";
+import { Classes } from "pages/Classes";
+import { Teachers } from "pages/Teachers";
+import { Students } from "pages/Students";
+import { Departments } from "pages/Departments";
 
 export const routes = [
     {
         name: 'home',
         path: '/',
-        component: Home
+        component: <Home />
     },
     {
         name: 'classes',
         path: '/classes',
-        component: Classes
+        component: <Classes />
     },
     {
         name: 'teachers',
         path: '/teachers',
-        component: Teachers
+        component: <Teachers />
     },
     {
         name: 'students',
         path: '/students',
-        component: Students
+        component: <Students />
     },
     {
         name: 'departments',
         path: '/departments',
-        component: Departments
+        component: <Departments />
     }
 ]
