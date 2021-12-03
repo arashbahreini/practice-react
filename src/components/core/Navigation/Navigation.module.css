@@ -1,0 +1,29 @@
+.navContainer {
+  border-bottom: solid gray 1px;
+  padding: 1rem;
+  background-color: #d5d8dc;
+  text-align: center;
+}
+
+span {
+  color: #273746;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 1.5vw;
+  border-right: 1px solid;
+  padding-right: 1rem;
+}
+
+span:last-child {
+  border-right: none;
+}
+
+span:hover {
+  cursor: pointer;
+  color: #566573;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
