@@ -2,6 +2,7 @@ import styles from './App.css';
 import { Routes, Route } from "react-router-dom";
 import { Navigation } from './components/core/Navigation/Navigation';
 import { routes } from "./config/routes";
+import './reset.css';
 
 function App() {
     return (
