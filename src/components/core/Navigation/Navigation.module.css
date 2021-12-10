@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-span {
+li {
   color: #273746;
   text-decoration: none;
   margin-right: 1rem;
@@ -14,11 +14,11 @@ span {
   padding-right: 1rem;
 }
 
-span:last-child {
+li:last-child {
   border-right: none;
 }
 
-span:hover {
+li:hover {
   cursor: pointer;
   color: #566573;
 }
@@ -26,4 +26,12 @@ span:hover {
 a:-webkit-any-link {
   text-decoration: none;
   color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+  display: inline-block;
 }
