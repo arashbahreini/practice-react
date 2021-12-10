@@ -1,16 +1,24 @@
-.link-container {
-    text-align: center;
-    margin: 1vh auto;
-    border-bottom: solid 1px lightgray;
-    padding-bottom: 1vh;
+.mainContainer {
+  background-color: red;
 }
 
-.link-item {
-    margin-right: 10px;
-    text-decoration: none;
-    font-size: 2vw;
+.App {
+  background-image: url("./assets/body-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
 }
 
-.link-item:hover {
-    cursor: pointer;
+.Body {
+  border: solid 1px gray;
+  width: 80%;
+  margin-left: 10%;
+  min-height: 85vh;
+  margin-top: 3vh;
+  background-color: #2c3e50;
+  color: #d5d8dc;
+  border-radius: 20px;
+  padding: 10px;
+  opacity: 0.8;
 }

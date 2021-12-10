@@ -1,0 +1,32 @@
+.navContainer {
+  border-bottom: solid gray 1px;
+  padding: 1rem;
+  background-color: #d5d8dc;
+  text-align: center;
+}
+
+.liItem {
+  color: #273746;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 1.5vw;
+  border-right: 1px solid;
+  padding-right: 1rem;
+}
+
+.liItem:last-child {
+  border-right: none;
+}
+
+.liItem:hover {
+  cursor: pointer;
+  color: #566573;
+}
+
+.ulItem {
+  list-style-type: none;
+}
+
+.ulItem > .liItem {
+  display: inline-block;
+}
