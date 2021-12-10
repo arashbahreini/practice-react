@@ -67,3 +67,8 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}

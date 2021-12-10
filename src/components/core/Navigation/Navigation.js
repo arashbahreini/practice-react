@@ -5,10 +5,10 @@ import styles from './Navigation.module.css'
 export const Navigation = () => (
     <nav>
         <nav className={styles.navContainer}>
-            <ul>
+            <ul className={styles.ulItem}>
                 {routes.map(item => {
                     return (
-                        <li key={item.name}>
+                        <li key={item.name} className={styles.liItem}>
                             {/* What is key? */}
                             <Link to={item.path} underline="none">
                                 {/*Todo: add icon here*/}

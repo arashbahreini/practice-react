@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-li {
+.liItem {
   color: #273746;
   text-decoration: none;
   margin-right: 1rem;
@@ -14,24 +14,19 @@ li {
   padding-right: 1rem;
 }
 
-li:last-child {
+.liItem:last-child {
   border-right: none;
 }
 
-li:hover {
+.liItem:hover {
   cursor: pointer;
   color: #566573;
 }
 
-a:-webkit-any-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
+.ulItem {
   list-style-type: none;
 }
 
-ul > li {
+.ulItem > .liItem {
   display: inline-block;
 }
