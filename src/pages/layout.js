@@ -1,10 +1,14 @@
+import Link from "next/link";
 
-export default function Layout({ children }) {
+export default function Layout({children}) {
     return (
         <>
-            <h1>Header</h1>
-            <main>{children}</main>
-            <h1>Footer</h1>
+            <div className='m-2'>
+                <Link className="btn btn-dark me-2" href='/'>Home</Link>
+                <Link className="btn btn-dark me-2" href='./students'>Students</Link>
+                <Link className="btn btn-dark me-2" href='./about-us'>About us</Link>
+            </div>
+            <main className='m-2 p-2 border'>{children}</main>
         </>
     )
 }
