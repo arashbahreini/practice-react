@@ -1,7 +1,14 @@
 import { useState } from 'react';
+import { useEffect } from 'react';
 
 export function AddEditStudent(props) {
   const [student, setStudent] = useState({ firstName: '', lastName: '' });
+  useEffect(() => {
+    console.log('student is updated', props);
+    setStudent(props.student);
+  }, [props.student]);
+
+  const editForm = (student) => {};
 
   const updateForm = (e) => {
     const { name, value } = e.target;
@@ -9,7 +16,12 @@ export function AddEditStudent(props) {
   };
 
   const submitForm = (e) => {
-    props.onAddStudent(student);
+    setStudent({ ...student, firstName: '', lastName: '' });
+    props.onUpdateStudent(student, props.isEditing);
+  };
+
+  const cancel = () => {
+    props.closeForm();
   };
 
   return (
@@ -33,12 +45,18 @@ export function AddEditStudent(props) {
             onChange={updateForm}
           />
         </div>
-      </div>
-      <div className="mt-2">
-        {/*TODO: Button should be disabled*/}
-        <button type="submit" className="btn btn-success" onClick={submitForm}>
-          Submit
-        </button>
+        <div className="col-sm-3">
+          <button
+            type="submit"
+            className="btn btn-success"
+            onClick={submitForm}
+            disabled={!student.firstName || !student.lastName}>
+            {props.isEditing ? 'Update' : 'Add'}
+          </button>
+          <button className="ms-1 btn btn-danger" onClick={cancel}>
+            Cancel
+          </button>
+        </div>
       </div>
     </>
   );
