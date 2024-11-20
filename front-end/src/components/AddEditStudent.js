@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
+import style from '../pages/students/student.module.scss';
 
 export function AddEditStudent(props) {
   const [student, setStudent] = useState({ firstName: '', lastName: '' });
@@ -54,6 +55,7 @@ export function AddEditStudent(props) {
   return (
     <>
       <div className="row">
+        <p className={style.inputs}>Add student here</p>
         <div className="col-sm-2">
           <input
             className="form-control"

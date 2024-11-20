@@ -25,7 +25,6 @@ public class StudentController: Controller
         // });
     }
 
-    // [HttpGet("get-all")]
     [HttpGet]
     public async Task<IEnumerable<Student>> GetAll()
     {

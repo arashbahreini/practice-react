@@ -28,3 +28,4 @@ C:\work\practice-react\backend\University\University\obj\Debug\net8.0\refint\Uni
 C:\work\practice-react\backend\University\University\obj\Debug\net8.0\University.pdb
 C:\work\practice-react\backend\University\University\obj\Debug\net8.0\University.genruntimeconfig.cache
 C:\work\practice-react\backend\University\University\obj\Debug\net8.0\ref\University.dll
+C:\work\practice-react\backend\University\University\obj\Debug\net8.0\University.sourcelink.json
