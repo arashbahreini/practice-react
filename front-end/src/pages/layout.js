@@ -16,6 +16,9 @@ export default function Layout({ children }) {
         <Link className="btn btn-dark me-2" href={'/products'}>
           Products
         </Link>
+        <Link className="btn btn-dark me-2" href={'/redux-form'}>
+          Redux form
+        </Link>
       </div>
       <main className="m-2 p-2 border">{children}</main>
     </>

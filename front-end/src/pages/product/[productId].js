@@ -17,7 +17,6 @@ export default function Product() {
     fetch(`https://localhost:44397/products/${productId}`)
       .then(async (product) => {
         setProduct(await product.json());
-        console.log(product);
       })
       .finally(() => {
         setLoading(false);

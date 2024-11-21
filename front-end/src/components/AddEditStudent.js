@@ -25,7 +25,6 @@ export function AddEditStudent(props) {
 
   const submitForm = () => {
     setIsLoading(true);
-
     if (student.id) {
       fetch(`https://localhost:44397/student/${student.id}`, {
         method: 'PUT',
