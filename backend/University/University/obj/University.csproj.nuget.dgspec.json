@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\work\\practice-react\\backend\\University\\University\\University.csproj",
         "projectName": "University",
         "projectPath": "C:\\work\\practice-react\\backend\\University\\University\\University.csproj",
-        "packagesPath": "C:\\Users\\vbhos\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
         "outputPath": "C:\\work\\practice-react\\backend\\University\\University\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vbhos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

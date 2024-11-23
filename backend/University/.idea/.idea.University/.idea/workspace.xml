@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4edc7404-6011-46d5-9c8c-8ae2c3b1e3b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../front-end/src/pages/redux-form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.University/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.University/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.dll" beforeDir="false" afterPath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.exe" beforeDir="false" afterPath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.pdb" afterDir="false" />
@@ -32,9 +32,6 @@
       <change beforePath="$PROJECT_DIR$/University/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/University/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/University/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/University/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/University/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/University/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front-end/src/pages/about-us/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front-end/src/pages/api/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front-end/src/pages/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end/src/pages/layout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +134,7 @@
       <workItem from="1731936520194" duration="7223000" />
       <workItem from="1732094197878" duration="4695000" />
       <workItem from="1732181171102" duration="758000" />
+      <workItem from="1732295095148" duration="605000" />
     </task>
     <servers />
   </component>

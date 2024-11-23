@@ -1,17 +1,17 @@
-import Link from 'next/link';
+import './globals.css'
+import { Header } from '@/app/components/header'
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode ;
+    children: React.ReactNode
 }>) {
-  return (
-    <html lang="en">
-      <body>
-      <Link href='/' >Home</Link>
-      <Link href='foo'>Foo</Link>
-        {children}
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body>
+                <Header />
+                {children}
+            </body>
+        </html>
+    )
 }
