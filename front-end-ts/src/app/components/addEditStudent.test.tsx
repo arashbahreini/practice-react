@@ -1,11 +1,10 @@
 import AddEditStudent from '@/app/components/addEditStudent'
 import { render, screen } from '@testing-library/react'
-import { expect, test } from '@jest/globals'
+import '@testing-library/jest-dom'
 
-test('first test', () => {
+test('Input should be appears', () => {
     render(<AddEditStudent changeFormVisibility={() => {}} />)
 
-    const element = screen.getByPlaceholderText(/aaa/)
-    console.log(element)
-    expect(true).toBe(true)
+    const element = screen.queryByPlaceholderText(/Student Name/i)
+    expect(element).toBeInTheDocument()
 })

@@ -10,30 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4edc7404-6011-46d5-9c8c-8ae2c3b1e3b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../front-end-ts/src/app/components/addEditStudent.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end-ts/src/app/components/addEditStudent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end-ts/src/app/components/studentList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end-ts/src/app/home/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end-ts/src/app/services/student.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end-ts/src/app/students/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../front-end-ts/src/app/types/student.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.University/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.University/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University/Controllers/StudentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/University/Controllers/StudentController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.dll" beforeDir="false" afterPath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.exe" beforeDir="false" afterPath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/University/bin/Debug/net8.0/University.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University/obj/Debug/net8.0/University.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/University/obj/Debug/net8.0/University.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University/obj/Debug/net8.0/University.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/University/obj/Debug/net8.0/University.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University/obj/Debug/net8.0/University.dll" beforeDir="false" afterPath="$PROJECT_DIR$/University/obj/Debug/net8.0/University.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University/obj/Debug/net8.0/University.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/University/obj/Debug/net8.0/University.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University/obj/Debug/net8.0/University.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/University/obj/Debug/net8.0/University.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/University/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University/obj/Debug/net8.0/ref/University.dll" beforeDir="false" afterPath="$PROJECT_DIR$/University/obj/Debug/net8.0/ref/University.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University/obj/Debug/net8.0/refint/University.dll" beforeDir="false" afterPath="$PROJECT_DIR$/University/obj/Debug/net8.0/refint/University.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../front-end-ts/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end-ts/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../front-end-ts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end-ts/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front-end-ts/src/app/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end-ts/src/app/components/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front-end-ts/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end-ts/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../front-end-ts/src/app/components/addEditStudent.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../front-end-ts/src/app/components/addEditStudent.test.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +118,7 @@
       <workItem from="1732181171102" duration="758000" />
       <workItem from="1732295095148" duration="605000" />
       <workItem from="1732474917413" duration="2217000" />
+      <workItem from="1732525876838" duration="608000" />
     </task>
     <servers />
   </component>
