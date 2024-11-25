@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ad944a4-ed29-49e3-b8a5-d53813de25e7" name="Changes" comment="Added student ts pages">
-      <change beforePath="$PROJECT_DIR$/../backend/University/.idea/.idea.University/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/University/.idea/.idea.University/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/University/University/bin/Debug/net8.0/University.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/University/University/bin/Debug/net8.0/University.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/front-end-ts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/front-end-ts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/studentList.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/addEditStudent.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/addEditStudent.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/addEditStudent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/addEditStudent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/student.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/student.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -76,7 +79,7 @@
       <workItem from="1732474855978" duration="7996000" />
       <workItem from="1732520148202" duration="6154000" />
       <workItem from="1732528812895" duration="766000" />
-      <workItem from="1732529823593" duration="308000" />
+      <workItem from="1732529823593" duration="6548000" />
     </task>
     <task id="LOCAL-00001" summary="Added student ts pages">
       <option name="closed" value="true" />

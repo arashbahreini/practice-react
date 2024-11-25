@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { ChangeEvent, useState } from 'react'
 import { Student } from '@/app/types/student'
 import { addStudent } from '@/app/services/student'
 
@@ -9,8 +9,11 @@ export default function AddEditStudent({
 }) {
     const [student, setStudent] = useState<Student>({} as Student)
     const [isLoading, setIsLoading] = useState<boolean>(false)
-    const onChange = (event) => {
-        setStudent({ ...student, [event.target.name]: event.target.value })
+    const onChange = (event: ChangeEvent<HTMLInputElement>) => {
+        setStudent({
+            ...student,
+            [event.target.name]: event.target.value || '',
+        })
     }
 
     const submit = () => {
@@ -29,7 +32,7 @@ export default function AddEditStudent({
                         type="text"
                         className="form-control"
                         placeholder="Student Name"
-                        value={student.firstName}
+                        value={student.firstName || ''}
                         name="firstName"
                         onChange={onChange}
                     />
@@ -39,7 +42,7 @@ export default function AddEditStudent({
                         type="text"
                         className="form-control"
                         placeholder="Email"
-                        value={student.email}
+                        value={student.email || ''}
                         name="email"
                         onChange={onChange}
                     />
