@@ -3,6 +3,7 @@ import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
 import userEvent from '@testing-library/user-event'
 import { addStudent } from '@/app/services/student'
+import Helper from '@/app/services/helper'
 
 test('First name Input should be appears', () => {
     render(<AddEditStudent changeFormVisibility={() => {}} />)
@@ -43,4 +44,18 @@ xtest('Submit should call addStudent method', async () => {
 
     expect(spy).toHaveBeenCalled()
     spy.mockRestore()
+})
+
+xdescribe('helper', () => {
+    test('should call helper', () => {
+        const spy = jest.mocked(Helper).mock
+
+        render(<AddEditStudent changeFormVisibility={() => {}} />)
+
+        const element = screen.getByText(/helper/i)
+        userEvent.click(element)
+
+        console.log(spy, 'aaaaaaaaaaaa')
+        expect(spy).toHaveBeenCalled()
+    })
 })

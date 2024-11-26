@@ -1,6 +1,7 @@
 import { ChangeEvent, useState } from 'react'
 import { Student } from '@/app/types/student'
 import { addStudent } from '@/app/services/student'
+import Helper from '@/app/services/helper'
 
 export default function AddEditStudent({
     changeFormVisibility,
@@ -54,6 +55,14 @@ export default function AddEditStudent({
                         disabled={isLoading}
                     >
                         Submit
+                    </button>
+                    <button
+                        className="btn btn-success mx-2"
+                        onClick={() => {
+                            Helper()
+                        }}
+                    >
+                        helper
                     </button>
                 </div>
             </div>

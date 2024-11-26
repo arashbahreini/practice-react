@@ -11,7 +11,3 @@ export function addStudent(student: Student) {
         headers: { 'Content-Type': 'application/json' },
     })
 }
-
-export function foo() {
-    return 123
-}

@@ -12,12 +12,12 @@ export function Header() {
                 font-bold text-red-950
                 hover:text-red-100 hover:cursor-pointer hover:bg-amber-500
                 mx-2"
-                    href="/home"
+                    href={'/home'}
                 >
                     Home
                 </Link>
                 <Link
-                    href="/students"
+                    href={'/students'}
                     className="
                 bg-amber-300
                 text-center
@@ -28,7 +28,7 @@ export function Header() {
                 >
                     Students
                 </Link>
-                <div
+                <Link
                     className="
                 bg-amber-300
                 text-center
@@ -36,9 +36,10 @@ export function Header() {
                 font-bold text-red-950
                 hover:text-red-100 hover:cursor-pointer hover:bg-amber-500
                 mx-2"
+                    href={'/products'}
                 >
                     Products
-                </div>
+                </Link>
                 <div
                     className="
                 bg-amber-300

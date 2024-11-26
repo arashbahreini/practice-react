@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ad944a4-ed29-49e3-b8a5-d53813de25e7" name="Changes" comment="Added student ts pages">
-      <change afterPath="$PROJECT_DIR$/src/app/components/studentList.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/addEditStudent-AI.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/productList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/products/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/helper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/University/.idea/.idea.University/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/University/.idea/.idea.University/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/addEditStudent.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/addEditStudent.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/addEditStudent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/addEditStudent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/services/student.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/student.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +82,8 @@
       <workItem from="1732474855978" duration="7996000" />
       <workItem from="1732520148202" duration="6154000" />
       <workItem from="1732528812895" duration="766000" />
-      <workItem from="1732529823593" duration="6548000" />
+      <workItem from="1732529823593" duration="17625000" />
+      <workItem from="1732611507886" duration="2357000" />
     </task>
     <task id="LOCAL-00001" summary="Added student ts pages">
       <option name="closed" value="true" />
