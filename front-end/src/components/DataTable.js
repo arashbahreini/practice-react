@@ -1,25 +1,27 @@
 import users from './users.json';
 import { useEffect, useState } from 'react';
 
-function paginateUsers(userList, page, pageSize) {
-  const start = (page - 1) * pageSize;
-  const end = start + pageSize;
-
-  const filteredUsers = userList.slice(start, end);
-  const totalPages = Math.ceil(userList.length / pageSize);
-
-  console.log(filteredUsers, totalPages);
-  return { filteredUsers, totalPages };
-}
-
 export default function DataTable() {
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(5);
   const [filteredUsers, setFilteredUsers] = useState([]);
+  const [totalPages, setTotalPages] = useState(0);
 
   useEffect(() => {
-    setFilteredUsers(paginateUsers(users, page, pageSize).filteredUsers);
+    paginateUsers(users, page, pageSize);
   }, []);
+
+  const paginateUsers = (userList, page, pageSize) => {
+    const start = (page - 1) * pageSize;
+    const end = start + pageSize;
+
+    const filteredUsers = userList.slice(start, end);
+    const totalPages = Math.ceil(userList.length / pageSize);
+
+    console.log(filteredUsers, totalPages);
+    setFilteredUsers(filteredUsers);
+    setTotalPages(totalPages);
+  };
 
   return (
     <>
@@ -48,17 +50,17 @@ export default function DataTable() {
         disabled={page === 1}
         onClick={() => {
           setPage(page - 1);
-          setFilteredUsers(paginateUsers(users, page - 1, pageSize).filteredUsers);
+          paginateUsers(users, page - 1, pageSize);
         }}>
         Prev
       </button>
-      {page} of {paginateUsers(users, page, pageSize).totalPages}
+      {page} of {totalPages}
       <button
         className={'btn mx-2 btn-info'}
-        disabled={page === paginateUsers(users, page, pageSize).totalPages}
+        disabled={page === totalPages}
         onClick={() => {
           setPage(page + 1);
-          setFilteredUsers(paginateUsers(users, page + 1, pageSize).filteredUsers);
+          paginateUsers(users, page + 1, pageSize);
         }}>
         Next
       </button>
@@ -71,7 +73,7 @@ export default function DataTable() {
           onClick={() => {
             setPage(1);
             setPageSize(s);
-            setFilteredUsers(paginateUsers(users, 1, s).filteredUsers);
+            paginateUsers(users, 1, s);
           }}>
           {s}
         </button>
