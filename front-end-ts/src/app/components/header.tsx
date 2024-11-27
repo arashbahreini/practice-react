@@ -40,7 +40,7 @@ export function Header() {
                 >
                     Products
                 </Link>
-                <div
+                <Link
                     className="
                 bg-amber-300
                 text-center
@@ -48,9 +48,10 @@ export function Header() {
                 font-bold text-red-950
                 hover:text-red-100 hover:cursor-pointer hover:bg-amber-500
                 mx-2"
+                    href={'/about-us'}
                 >
                     About us
-                </div>
+                </Link>
                 <div
                     className="
                 bg-amber-300
