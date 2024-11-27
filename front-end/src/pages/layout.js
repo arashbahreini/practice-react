@@ -22,6 +22,9 @@ export default function Layout({ children }) {
         <Link className="btn btn-dark me-2" href={'/data-table'}>
           Data table
         </Link>
+        <Link className="btn btn-dark me-2" href={'/hackers'}>
+          Hackers
+        </Link>
       </div>
       <main className="m-2 p-2 border">{children}</main>
     </>
