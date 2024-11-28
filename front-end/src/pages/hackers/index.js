@@ -50,9 +50,17 @@ export default function HackersPage() {
       ) : (
         <div>
           {jobs.map((x, i) => {
-            return <div key={i}>aaa</div>;
+            return (
+              <div key={i} className="border my-2 p-2">
+                <h2>{x.url ? <a href={x.url}>{x.title}</a> : <span>{x.title}</span>}</h2>
+                <h5>
+                  By: {x.by} . {new Date(x.time * 1000).toLocaleString()}
+                </h5>
+              </div>
+            );
           })}
           <button
+            className="btn btn-primary"
             onClick={async () => {
               await getJobs(page + PAGE_SIZE);
             }}>

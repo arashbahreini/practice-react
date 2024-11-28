@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad944a4-ed29-49e3-b8a5-d53813de25e7" name="Changes" comment="Added student ts pages">
-      <change afterPath="$PROJECT_DIR$/src/app/about-us/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/header.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="8ad944a4-ed29-49e3-b8a5-d53813de25e7" name="Changes" comment="Added student ts pages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +77,7 @@
       <workItem from="1732529823593" duration="17625000" />
       <workItem from="1732611507886" duration="9272000" />
       <workItem from="1732700507333" duration="15000" />
+      <workItem from="1732800827482" duration="630000" />
     </task>
     <task id="LOCAL-00001" summary="Added student ts pages">
       <option name="closed" value="true" />
